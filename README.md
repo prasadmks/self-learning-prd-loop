@@ -14,7 +14,7 @@ A PRD's edit history contains more signal than the PRD itself — which sections
 
 ## How It Works
 
-![Self-Learning Loop Architecture](https://raw.githubusercontent.com/prasadmks/self-learning-prd-loop/main/images/self-learning-loop-architecture.png)
+![Self-Learning Loop Architecture](https://raw.githubusercontent.com/prasadmks/self-learning-prd-loop/main/image/self-learning-loop-architecture.png)
 
 A background agent runs on a 5-minute heartbeat. Each cycle detects how the PRD has evolved, infers what the PM is prioritizing, generates targeted checklist improvements, and emails them for approval. Approved items compound into the checklist. The agent suggests — the PM decides.
 
