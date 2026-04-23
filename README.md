@@ -33,7 +33,7 @@ A background agent runs on a 5-minute heartbeat. Each cycle detects how the PRD 
 
 The agent is stateless. The workspace is stateful. Every cycle reads fresh from disk — no context drift, no compaction artifacts across runs.
 
-| | Static checklist | Self-Learning Loop |
+|Capabilities | Static checklist | Self-Learning Loop |
 |---|---|---|
 | Adapts to your writing style | No | Yes |
 | Learns from feedback signals | No | Yes |
